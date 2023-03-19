@@ -1,0 +1,24 @@
+*{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.bandeau{
+    height: 70px;
+    background-color: cornflowerblue;
+}
+.contenu{
+    height: 500px;
+    background-color: rgb(226, 212, 18);
+}
+.pied{
+    height: 70px;
+    background-color: rgb(40, 190, 73);
+}
+@media screen and (max-widht: 800px){
+    body{
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+    }
+}
